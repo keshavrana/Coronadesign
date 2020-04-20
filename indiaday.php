@@ -45,7 +45,7 @@
 
       <!-- The main logo is shown in mobile version only. The centered nav-logo in nav menu is displayed in desktop view  -->
       <div class="logo d-block d-lg-none">
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <a href="index.html"><img src="images/bg4.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -138,7 +138,7 @@ $i++;
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <a href="#header" class="scrollto footer-logo"><img src="images/bg4.png" alt=""></a>
-            <h3>Keshav Rana</h3>
+            <h3>Stay Home Stay Safe</h3>
           </div>
         </div>
 
@@ -162,7 +162,7 @@ $i++;
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/knight-free-bootstrap-theme/ -->
-        Designed by <a href="https://keshav.com/">Keshav Rana</a>
+        Designed by <a href="https://keshavtechnical.netlify.com/">Keshav Rana</a>
       </div>
     </div>
   </footer><!-- End Footer -->

@@ -67,8 +67,8 @@
             <ul>
               <li><a href="#about">About COVID-19</a></li>
               <li><a href="#answer">Q & A</a></li>
-              <li><a href="#team">Team</a></li>
               <li><a href="#activity">Activity</a></li>
+              <li><a href="#contact">Contact Us</a></li>
             </ul>
           </li>
           <li><a href="#symptoms">Symptoms</a></li>
@@ -410,7 +410,7 @@ while($i < $statescount){
               <div class="portfolio-info">
                 <p>GOVERMENT OF INDIA</p>
                 <div class="portfolio-links">
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="https://www.mygov.in/" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -422,7 +422,7 @@ while($i < $statescount){
               <div class="portfolio-info">
               <p>GOVERMENT OF INDIA</p>
                 <div class="portfolio-links">
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="https://www.mygov.in/" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -619,7 +619,7 @@ while($i < $statescount){
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/knight-free-bootstrap-theme/ -->
-        Designed by <a href="https://keshav.com/">Keshav Rana</a>
+        Designed by <a href="https://keshavtechnical.netlify.com/">Keshav Rana</a>
       </div>
     </div>
   </footer><!-- End Footer -->
