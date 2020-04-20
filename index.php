@@ -432,7 +432,7 @@ while($i < $statescount){
       </div>
     </section><<!-- End Portfolio Section -->
 
-    <!-- ======= Testimonials Section ======= -->
+    <!-- ======= Testimonials Section ======= 
     <section id="team" class="testimonials">
       <div class="container" data-aos="zoom-in">
         <div class="quote-icon">
@@ -496,7 +496,7 @@ while($i < $statescount){
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section> End Testimonials Section --->
 
 
     <!-- ======= Contact Section ======= -->
@@ -539,16 +539,16 @@ while($i < $statescount){
             <form action="index.php" method="POST">
 
   <div class="form-group">
-    <label>Name:</label>
-    <input type="text" class="form-control" name="username" placeholder="name" autocomplete="off" required>
+    <label></label>
+    <input type="text" class="form-control" name="username" placeholder="Your Name" autocomplete="off" required>
   </div>
 
   <div class="form-group">
-    <label>Mobile:</label>
-    <input type="number" class="form-control" name="mobile" placeholder="mobile" autocomplete="off" required>
+    <label></label>
+    <input type="number" class="form-control" name="mobile" placeholder="Mobile " autocomplete="off" required>
   </div>
 <div class="form-group">
-  <label>Select Symptoms</label><br>
+  <label></label><br>
   <div class="custom-control custom-checkbox custom-control-inline text-capitalize">
     <input type="checkbox" class="custom-control-input" id="customcheckbox1" name="coronasym[]" value="cold">
     <label class="custom-control-label" for="customcheckbox1">Cold</label>  
@@ -575,7 +575,7 @@ while($i < $statescount){
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg"></textarea>
   </div>
 
- <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+ <button type="submit" class="btn btn-success" name="submit">Send Message</button>
 </form>
 </div>
 </div>
@@ -595,7 +595,7 @@ while($i < $statescount){
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <a href="#header" class="scrollto footer-logo"><img src="images/bg4.png" alt=""></a>
-            <h3>Keshav Rana</h3>
+            <h3>Stay Home Stay Safe</h3>
           </div>
         </div>
 
