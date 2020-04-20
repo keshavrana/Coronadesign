@@ -54,7 +54,7 @@
 
           
 
-          <li class="nav-logo"><a href="index.html"><img src="images/bg4.png" alt="" class="img-fluid"></a></li>
+          <li class="nav-logo"><a href="index.php"><img src="images/bg4.png" alt="" class="img-fluid"></a></li>
 
           
           <li><a href="indiaday.php">INDIADAYWISE</a></li>
