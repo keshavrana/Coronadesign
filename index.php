@@ -540,16 +540,16 @@ while($i < $statescount){
 
   <div class="form-group">
     <label></label>
-    <input type="text" class="form-control" name="username" placeholder="Your Name" autocomplete="off" required>
+    <input type="text" class="form-control" name="username" placeholder="Your Name" autocomplete="off" required data-aos="fade-left">
   </div>
 
   <div class="form-group">
     <label></label>
-    <input type="number" class="form-control" name="mobile" placeholder="Mobile " autocomplete="off" required>
+    <input type="number" class="form-control" name="mobile" placeholder="Mobile " autocomplete="off" required data-aos="fade-left">
   </div>
-<div class="form-group">
+<div class="form-group" data-aos="fade-left">
   <label></label><br>
-  <div class="custom-control custom-checkbox custom-control-inline text-capitalize">
+  <div class="custom-control custom-checkbox custom-control-inline text-capitalize" >
     <input type="checkbox" class="custom-control-input" id="customcheckbox1" name="coronasym[]" value="cold">
     <label class="custom-control-label" for="customcheckbox1">Cold</label>  
   </div>
@@ -571,11 +571,11 @@ while($i < $statescount){
 
 
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Message:</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg"></textarea>
+    <label for="exampleFormControlTextarea1" data-aos="fade-left">Message:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg" data-aos="fade-left"></textarea>
   </div>
 
- <button type="submit" class="btn btn-success" name="submit">Send Message</button>
+ <button type="submit" class="btn btn-success" name="submit" data-aos="fade-left">Send Message</button>
 </form>
 </div>
 </div>
