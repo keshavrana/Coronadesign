@@ -423,7 +423,7 @@ while($i < $statescount){
 
 
       </div>
-    </section><<!-- End Portfolio Section -->
+    </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= 
     <section id="team" class="testimonials">
