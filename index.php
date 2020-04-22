@@ -50,7 +50,7 @@
 
       <!-- The main logo is shown in mobile version only. The centered nav-logo in nav menu is displayed in desktop view  -->
       <div class="logo d-block d-lg-none">
-        <a href="index.php"><img src="images/bg4.png" alt="" class="img-fluid"></a>
+        <a href="index.php" class="img_style"><img src="images/bg4.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -66,7 +66,7 @@
           </li>
           <li><a href="#symptoms">Symptoms</a></li>
 
-          <li class="nav-logo"><a href="index.php"><img src="images/bg4.png" alt="" class="img-fluid"></a></li>
+          <li class="nav-logo"><a href="index.php" class="img_style"><img src="images/bg4.png" alt="" class="img-fluid"></a></li>
 
           <li><a href="#prevention">Prevention</a></li>
           <li><a href="indiaday.php">IndiaDayWise</a></li>
