@@ -412,7 +412,7 @@ while($i < $statescount){
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="images/image4.jpg" class="img-fluid" alt="">
+              <img src="https://www.mygov.in/sites/default/files/master_image/volunteertn.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
               <p>GOVERMENT OF INDIA</p>
                 <div class="portfolio-links">
