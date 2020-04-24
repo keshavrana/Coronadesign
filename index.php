@@ -160,51 +160,6 @@ const searchFun = () =>{
 </section>
 
 <!--- Daily Updates -->
-<section class="corona_update container-fluid">
-  <div class="my-5">
-    <h3 class="text-center text-uppercase pb-5">COVID-19 TODAY'S LIVE UPDATE</h3>
-    <div class="table-responsive">
-      <table class=" table table-bordered table-striped text-center">
-        <tr>
-          <th> State </th>
-          <th>Today Confirmed </th>
-          <th>Today Deaths</th>
-          <th>Today Recovered</th>  
-        </tr>
-
-
-<?php
-$data = file_get_contents('https://api.covid19india.org/data.json');
-$coranalive = json_decode($data, true);
-
-$statescount = count($coranalive['statewise']);
-
-$i=0;
-while($i < $statescount){
-  ?>
-  <tr>
-    <td style="background: #4bb7d8;"><?php echo $coranalive['statewise'][$i]['state'] ?></td>
-    <td style="background: #f36e23;"><?php echo $coranalive['statewise'][$i]['deltaconfirmed'] ?></td>
-    <td style="background: #4bb7d8;"><?php echo $coranalive['statewise'][$i]['deltadeaths'] ?></td>
-    <td style="background: #9cc850;"><?php echo $coranalive['statewise'][$i]['deltarecovered'] ?></td>
-
-  </tr>
-
-<?php
-  $i++;
-
-}
-?>
-
-
-      </table>
-    </div>
-
-  </div>
-  
-</section>
-
-
 
 
     <!-- ======= About Us Section ======= -->
