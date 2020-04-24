@@ -67,7 +67,7 @@
 
             </ul>
           </li>
-          <li><a href="hospital.php"> TESTING LAB'S & FREE FOOD</a></li>
+          <li><a href="hospital.php">TESTING LAB'S & FREE FOOD</a></li>
 
           <li class="nav-logo"><a href="index.php" class="img_style"><img src="images/bg4.png" alt="" class="img-fluid"></a></li>
           <li><a href="indiaday.php">IndiaDayWise</a></li>
@@ -85,7 +85,11 @@
   <div class="my-5">
     <h3 class="text-center text-uppercase pb-5">COVID-19 LIVE UPDATES OF THE INDIA </h3>
     <div class="table-responsive">
-      <table class=" table table-bordered table-striped text-center">
+      <div class="search mb-2">
+      <input style="width: 300px; height: 43px; background-color: #fff; padding: 8px 32px; font-family:sans-serif; font-size: 16px; "type="text" name="" id="myInput" placeholder="Search Here...." onkeyup="searchFun()">
+
+</div>
+      <table class=" table table-bordered table-striped text-center" id="myTable">
         <tr>
           <th> Lastupdatedtime </th>
           <th> State </th>
@@ -123,6 +127,32 @@ while($i < $statescount){
 
 
       </table>
+
+<script>
+const searchFun = () =>{
+  let filter = document.getElementById('myInput').value.toUpperCase();
+
+  let myTable = document.getElementById('myTable');
+
+  let tr = document.getElementsByTagName('tr');
+
+  for(var i=0; i<tr.length; i++){
+      let td = tr[i].getElementsByTagName('td')[1];
+
+      if(td){
+          let textvalue = td.textContent || td.innerHTML;
+
+          if (textvalue.toUpperCase().indexOf(filter) > -1){
+            tr[i].style.display = "";
+          }else{
+              tr[i].style.display = "none";
+          }
+      }
+  }
+
+}
+</script>
+
     </div>
 
   </div>
