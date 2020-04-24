@@ -59,16 +59,17 @@
           <li class="drop-down"><a href="">About</a>
             <ul>
               <li><a href="#about">About COVID-19</a></li>
+              <li><a href="#symptoms">Symptoms</a></li>
+              <li><a href="#prevention">Prevention</a></li>
               <li><a href="#answer">Q & A</a></li>
               <li><a href="#activity">Activity</a></li>
               <li><a href="#contact">Contact Us</a></li>
+
             </ul>
           </li>
-          <li><a href="#symptoms">Symptoms</a></li>
+          <li><a href="hospital.php"> TESTING LAB'S & FREE FOOD</a></li>
 
           <li class="nav-logo"><a href="index.php" class="img_style"><img src="images/bg4.png" alt="" class="img-fluid"></a></li>
-
-          <li><a href="#prevention">Prevention</a></li>
           <li><a href="indiaday.php">IndiaDayWise</a></li>
           <li><a href="worldlive.php">WorldCoronaLive</a></li>
 

@@ -47,7 +47,7 @@
         <ul class="nav-inner">
           <li class="active"><a href="index.php">COVID-19</a></li>
 
-          <li><a href="hospital.php"> TESTING LAB'S & FREE FOOD</a></li>
+          
 
           <li class="nav-logo"><a href="index.php"><img src="images/bg4.png" alt="" class="img-fluid"></a></li>
 
@@ -64,75 +64,54 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <section class="corona_update container-fluid mt-5" id="live">
-  <div class="mb-3">
-    <h3 class="text-center text-uppercase pb-5">COVID-19 LIVE UPDATES OF THE WORLDS </h3>
+  
+<section class="corona_update container-fluid">
+  <div class="my-5">
+    <h3 class="text-center text-uppercase pb-5">COVID-19 TESTING LAB'S AND FREE FOODS </h3>
     <div class="table-responsive">
-      <table class=" table table-bordered table-striped text-center" id="tbval">
+      <table class=" table table-bordered table-striped text-center">
         <tr>
-          <th>Country</th>
-          <th>TotalConfirmed</th>
-          <th>TotalRecovered</th>
-          <th>TotalDeaths</th>
-          <th>NewConfirmed</th>
-          <th>NewRecovered</th>
-          <th>NewDeaths</th>
+          <th>State</th>
+          <th>City</th>
+          <th>Organization Name</th>
+          <th>Phone Number</th>
+          <th>Category</th>
+          <th>Descrition</th>  
         </tr>
+
+
+<?php
+$data = file_get_contents('https://api.covid19india.org/resources/resources.json');
+$coranalive = json_decode($data, true);
+
+$statescount = count($coranalive['resources']);
+
+$i=0;
+while($i < $statescount){
+  ?>
+  <tr>
+    <td style="background: #7a4a91;" class="text-white"><?php echo $coranalive['resources'][$i]['state'] ?></td>
+    <td style="background: #4bb7d8;"><?php echo $coranalive['resources'][$i]['city'] ?></td>
+    <td style="background: #f36e23;"><?php echo $coranalive['resources'][$i]['nameoftheorganisation'] ?></td>
+    <td style="background: #4bb7d8;"><?php echo $coranalive['resources'][$i]['phonenumber'] ?></td>
+    <td style="background: #9cc850;"><?php echo $coranalive['resources'][$i]['category'] ?></td>
+    <td style="background: #f36e23;"><?php echo $coranalive['resources'][$i]['descriptionandorserviceprovided'] ?></td>
+
+  </tr>
+
+<?php
+  $i++;
+
+}
+?>
+
+
       </table>
     </div>
 
   </div>
   
 </section>
-
-
-<script>
-
-function fetch(){
-  $.get("https://api.covid19api.com/summary",
-
-    function (data){
-      var tbval = document.getElementById('tbval');
-
-      for(var i=1; i<(data['Countries'].length); i++){
-        var x = tbval.insertRow();
-        x.insertCell(0);
-        tbval.rows[i].cells[0].innerHTML = data['Countries'][i-1]['Country'];
-        tbval.rows[i].cells[0].style.background = '#7a4a91';
-
-        tbval.rows[i].cells[0].style.color = '#fff';
-
-        x.insertCell(1);
-        tbval.rows[i].cells[1].innerHTML = data['Countries'][i-1]['TotalConfirmed'];
-        tbval.rows[i].cells[1].style.background = '#4bb7d8';
-
-        x.insertCell(2);
-        tbval.rows[i].cells[2].innerHTML = data['Countries'][i-1]['TotalRecovered'];
-        tbval.rows[i].cells[2].style.background = '#4bb7d8';
-
-        x.insertCell(3);
-        tbval.rows[i].cells[3].innerHTML = data['Countries'][i-1]['TotalDeaths'];
-        tbval.rows[i].cells[3].style.background = '#f36e23';
-
-        x.insertCell(4);
-        tbval.rows[i].cells[4].innerHTML = data['Countries'][i-1]['NewConfirmed'];
-        tbval.rows[i].cells[4].style.background = '#4bb7d8';
-
-        x.insertCell(5);
-        tbval.rows[i].cells[5].innerHTML = data['Countries'][i-1]['NewRecovered'];
-        tbval.rows[i].cells[5].style.background = '#9cc850';
-
-        x.insertCell(6);
-        tbval.rows[i].cells[6].innerHTML = data['Countries'][i-1]['NewDeaths'];
-        tbval.rows[i].cells[6].style.background = '#f36e23';
-
-      }
-    }
-  );
-
-}
-
-</script>
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->

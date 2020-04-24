@@ -47,7 +47,7 @@
         <ul class="nav-inner">
           <li class="active"><a href="index.php">COVID-19</a></li>
 
-          
+          <li><a href="hospital.php"> TESTING LAB'S & FREE FOOD</a></li>
 
           <li class="nav-logo"><a href="index.php"><img src="images/bg4.png" alt="" class="img-fluid"></a></li>
 
