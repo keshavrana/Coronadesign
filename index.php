@@ -136,7 +136,6 @@ while($i < $statescount){
     <div class="table-responsive">
       <table class=" table table-bordered table-striped text-center">
         <tr>
-          <th> Lastupdatedtime </th>
           <th> State </th>
           <th>Today Confirmed </th>
           <th>Today Deaths</th>
@@ -154,7 +153,6 @@ $i=0;
 while($i < $statescount){
   ?>
   <tr>
-    <td style="background: #7a4a91;" class="text-white"><?php echo $coranalive['statewise'][$i]['lastupdatedtime'] ?></td>
     <td style="background: #4bb7d8;"><?php echo $coranalive['statewise'][$i]['state'] ?></td>
     <td style="background: #f36e23;"><?php echo $coranalive['statewise'][$i]['deltaconfirmed'] ?></td>
     <td style="background: #4bb7d8;"><?php echo $coranalive['statewise'][$i]['deltadeaths'] ?></td>
