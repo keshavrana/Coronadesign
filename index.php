@@ -128,6 +128,54 @@ while($i < $statescount){
   
 </section>
 
+<!--- Daily Updates -->
+<section class="corona_update container-fluid">
+  <div class="my-5">
+    <h3 class="text-center text-uppercase pb-5">COVID-19 TODAY'S LIVE UPDATE</h3>
+    <div class="table-responsive">
+      <table class=" table table-bordered table-striped text-center">
+        <tr>
+          <th> Lastupdatedtime </th>
+          <th> State </th>
+          <th>Today Confirmed </th>
+          <th>Today Deaths</th>
+          <th>Today Recovered</th>  
+        </tr>
+
+
+<?php
+$data = file_get_contents('https://api.covid19india.org/data.json');
+$coranalive = json_decode($data, true);
+
+$statescount = count($coranalive['statewise']);
+
+$i=0;
+while($i < $statescount){
+  ?>
+  <tr>
+    <td style="background: #7a4a91;" class="text-white"><?php echo $coranalive['statewise'][$i]['lastupdatedtime'] ?></td>
+    <td style="background: #4bb7d8;"><?php echo $coranalive['statewise'][$i]['state'] ?></td>
+    <td style="background: #f36e23;"><?php echo $coranalive['statewise'][$i]['deltaconfirmed'] ?></td>
+    <td style="background: #4bb7d8;"><?php echo $coranalive['statewise'][$i]['deltadeaths'] ?></td>
+    <td style="background: #9cc850;"><?php echo $coranalive['statewise'][$i]['deltarecovered'] ?></td>
+
+  </tr>
+
+<?php
+  $i++;
+
+}
+?>
+
+
+      </table>
+    </div>
+
+  </div>
+  
+</section>
+
+
 
 
     <!-- ======= About Us Section ======= -->
@@ -425,7 +473,6 @@ while($i < $statescount){
       </div>
     </section>
 
-    <!-- End Portfolio Section 
     <section id="team" class="testimonials">
       <div class="container" data-aos="zoom-in">
         <div class="quote-icon">
@@ -435,11 +482,11 @@ while($i < $statescount){
 
           <div class="testimonial-item">
             <p>
-              Stay Home Stay Safe
+              If you don’t like me, why do you waste your time making fun of me?
             </p>
             <img src="images/keshav.jpg" class="testimonial-img" alt="">
             <h3>Keshav Rana</h3>
-          
+            
           </div>
 
         </div>
@@ -448,12 +495,11 @@ while($i < $statescount){
     </section> 
 
 
-    ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact Us ASAP</h2>
+          <h2>Contact Us</h2>
 
         </div>
 
@@ -464,7 +510,7 @@ while($i < $statescount){
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>Mullana<br>Haryana, INDIA 133203</p>
+                <p>Mullana,<br>Haryana, INDIA 133203</p>
               </div>
 
               <div class="email">
@@ -528,9 +574,8 @@ while($i < $statescount){
 </form>
 </div>
 </div>
+---->
 </div>
-
---->
 </div>
     </section><!-- End Contact Section -->
 
