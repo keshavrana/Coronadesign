@@ -473,7 +473,7 @@ while($i < $statescount){
 
       </div>
     </section>
-
+<!-----
     <section id="team" class="testimonials">
       <div class="container" data-aos="zoom-in">
         <div class="quote-icon">
@@ -494,7 +494,7 @@ while($i < $statescount){
 
       </div>
     </section> 
-
+----->
 
     <section id="contact" class="contact section-bg">
       <div class="container">
