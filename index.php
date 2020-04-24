@@ -26,7 +26,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <script data-ad-client="ca-pub-4744667142315503" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 </head>
 
@@ -424,9 +423,9 @@ while($i < $statescount){
 
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section>
 
-    <!-- ======= Testimonials Section ======= 
+    <!-- End Portfolio Section 
     <section id="team" class="testimonials">
       <div class="container" data-aos="zoom-in">
         <div class="quote-icon">
@@ -436,69 +435,25 @@ while($i < $statescount){
 
           <div class="testimonial-item">
             <p>
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              Stay Home Stay Safe
             </p>
             <img src="images/keshav.jpg" class="testimonial-img" alt="">
             <h3>Keshav Rana</h3>
-            <h4>Ceo &amp; Founder</h4>
-          </div>
-
-          <div class="testimonial-item">
-            <p>
-              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-            </p>
-            <img src="images/guru.png" class="testimonial-img" alt="">
-            <h3>Gurkirat Singh Sandhu</h3>
-            <h4>Designer</h4>
-          </div>
-
-          <div class="testimonial-item">
-            <p>
-              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-            </p>
-            <img src="images/negi.png" class="testimonial-img" alt="">
-            <h3>Himanshu Negi</h3>
-            <h4>Store Owner</h4>
-          </div>
-
-          <div class="testimonial-item">
-            <p>
-              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-            </p>
-            <img src="images/kamal.png" class="testimonial-img" alt="">
-            <h3>Kamal Sharma</h3>
-            <h4>Freelancer</h4>
-          </div>
-
-          <div class="testimonial-item">
-            <p>
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-            </p>
-            <img src="images/karan.png" class="testimonial-img" alt="">
-            <h3>Karan Puri</h3>
-            <h4>Entrepreneur</h4>
-          </div>
-          <div class="testimonial-item">
-            <p>
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-            </p>
-            <img src="images/yash.png" class="testimonial-img" alt="">
-            <h3>Yash Naniwal</h3>
-            <h4>Entrepreneur</h4>
+          
           </div>
 
         </div>
 
       </div>
-    </section> End Testimonials Section --->
+    </section> 
 
 
-    <!-- ======= Contact Section ======= -->
+    ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact Us </h2>
+          <h2>Contact Us ASAP</h2>
 
         </div>
 
@@ -509,7 +464,7 @@ while($i < $statescount){
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>Amabla Cantt,<br>Haryana, INDIA 133203</p>
+                <p>Mullana<br>Haryana, INDIA 133203</p>
               </div>
 
               <div class="email">
@@ -527,7 +482,7 @@ while($i < $statescount){
             </div>
 
           </div>
-
+<!--------
           <div class="col-lg-8 mt-5 mt-lg-0">
 
             <form action="index.php" method="POST">
@@ -574,6 +529,8 @@ while($i < $statescount){
 </div>
 </div>
 </div>
+
+--->
 </div>
     </section><!-- End Contact Section -->
 
