@@ -23,6 +23,8 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -32,7 +34,7 @@
 
 </head>
 
-<body onload="fetch()">
+<body>
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
@@ -64,6 +66,99 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
+
+
+<section class="corona_update container-fluid">
+  <div class="my-5">
+    <h3 class="text-center text-uppercase pb-5">COVID-19 LIVE UPDATES OF THE INDIA </h3>
+    <div class="table-responsive">
+    <div class="searchBox">
+    <input class="searchInput" type="text" name="" id="myInput" placeholder="Search Here..." onkeyup="searchFun()">
+    <button class="searchButton" href="#">
+    <i class="material-icons">
+    search
+    </i>
+      </button>
+        </div><br><br><br>
+
+
+
+      <table class=" table table-bordered table-striped text-center" id="myTable">
+        <tr>
+          <th>Country</th>
+          <th>TotalConfirmed</th>
+          <th>TotalRecovered</th>
+          <th>TotalDeaths</th>
+          <th>NewConfirmed</th>
+          <th>NewRecovered</th>
+          <th>NewDeaths</th>  
+        </tr>
+
+
+<?php
+$data = file_get_contents('https://api.covid19api.com/summary');
+$coranalive = json_decode($data, true);
+
+$statescount = count($coranalive['Countries']);
+
+$i=0;
+while($i < $statescount){
+  ?>
+  <tr>
+    <td style="background: #7a4a91;" class="text-white"><?php echo $coranalive['Countries'][$i]['Country'] ?></td>
+    <td style="background: #4bb7d8;"><?php echo $coranalive['Countries'][$i]['TotalConfirmed'] ?></td>
+    <td style="background: #f36e23;"><?php echo $coranalive['Countries'][$i]['TotalRecovered'] ?></td>
+    <td style="background: #4bb7d8;"><?php echo $coranalive['Countries'][$i]['TotalDeaths'] ?></td>
+    <td style="background: #9cc850;"><?php echo $coranalive['Countries'][$i]['NewConfirmed'] ?></td>
+    <td style="background: #f36e23;"><?php echo $coranalive['Countries'][$i]['NewRecovered'] ?></td>
+    <td style="background: #f36e23;"><?php echo $coranalive['Countries'][$i]['NewDeaths'] ?></td>
+
+  </tr>
+
+<?php
+  $i++;
+
+}
+?>
+
+
+      </table>
+
+<script>
+const searchFun = () =>{
+  let filter = document.getElementById('myInput').value.toUpperCase();
+
+  let myTable = document.getElementById('myTable');
+
+  let tr = document.getElementsByTagName('tr');
+
+  for(var i=0; i<tr.length; i++){
+      let td = tr[i].getElementsByTagName('td')[0];
+
+      if(td){
+          let textvalue = td.textContent || td.innerHTML;
+
+          if (textvalue.toUpperCase().indexOf(filter) > -1){
+            tr[i].style.display = "";
+          }else{
+              tr[i].style.display = "none";
+          }
+      }
+  }
+
+}
+</script>
+
+    </div>
+
+  </div>
+  
+</section>
+
+
+
+<!---
+
     <section class="corona_update container-fluid mt-5" id="live">
   <div class="mb-3">
     <h3 class="text-center text-uppercase pb-5">COVID-19 LIVE UPDATES OF THE WORLDS </h3>
@@ -133,6 +228,7 @@ function fetch(){
 }
 
 </script>
+---->
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
