@@ -2,17 +2,17 @@
     
     position: absolute;
     background: #2f3640;
-    border-radius: 40px;
-    padding: 10px;
+    border-radius: 25px;
+    padding: 6px;
 
 }
 
-.searchBox:hover > .searchInput {
-    width: 240px;
+.searchBox > .searchInput {
+    width: 210px;
     padding: 0 6px;
 }
 
-.searchBox:hover > .searchButton {
+.searchBox > .searchButton {
   background: white;
   color : #2f3640;
 }

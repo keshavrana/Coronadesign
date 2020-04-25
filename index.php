@@ -23,6 +23,9 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -85,10 +88,14 @@
   <div class="my-5">
     <h3 class="text-center text-uppercase pb-5">COVID-19 LIVE UPDATES OF THE INDIA </h3>
     <div class="table-responsive">
-      <div class="search mb-2">
-      <input style="width: 300px; height: 43px; background-color: #fff; padding: 8px 32px; font-family:sans-serif; font-size: 16px; "type="text" name="" id="myInput" placeholder="Search Here...." onkeyup="searchFun()">
-
-</div>
+    <div class="searchBox">
+    <input class="searchInput" type="text" name="" id="myInput" placeholder="Search Here..." onkeyup="searchFun()">
+    <button class="searchButton" href="#">
+    <i class="material-icons">
+    search
+    </i>
+      </button>
+        </div><br><br><br>
       <table class=" table table-bordered table-striped text-center" id="myTable">
         <tr>
           <th> Lastupdatedtime </th>
