@@ -23,6 +23,7 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -69,6 +70,14 @@
   <div class="my-5">
     <h3 class="text-center text-uppercase pb-5">COVID-19 TESTING LAB'S AND FREE FOODS </h3>
     <div class="table-responsive">
+    <div class="searchBox">
+    <input class="searchInput" type="text" name="" id="myInput" placeholder="Search city..." onkeyup="searchFun()">
+    <button class="searchButton" href="#">
+    <i class="material-icons">
+    search
+    </i>
+      </button>
+        </div><br><br><br>
       <table class=" table table-bordered table-striped text-center">
         <tr>
           <th>State</th>
@@ -107,6 +116,32 @@ while($i < $statescount){
 
 
       </table>
+
+
+  <script>
+const searchFun = () =>{
+  let filter = document.getElementById('myInput').value.toUpperCase();
+
+  let myTable = document.getElementById('myTable');
+
+  let tr = document.getElementsByTagName('tr');
+
+  for(var i=0; i<tr.length; i++){
+      let td = tr[i].getElementsByTagName('td')[1];
+
+      if(td){
+          let textvalue = td.textContent || td.innerHTML;
+
+          if (textvalue.toUpperCase().indexOf(filter) > -1){
+            tr[i].style.display = "";
+          }else{
+              tr[i].style.display = "none";
+          }
+      }
+  }
+
+}
+</script>
     </div>
 
   </div>

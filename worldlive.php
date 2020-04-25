@@ -73,7 +73,7 @@
     <h3 class="text-center text-uppercase pb-5">COVID-19 LIVE UPDATES OF THE INDIA </h3>
     <div class="table-responsive">
     <div class="searchBox">
-    <input class="searchInput" type="text" name="" id="myInput" placeholder="Search Here..." onkeyup="searchFun()">
+    <input class="searchInput" type="text" name="" id="myInput" placeholder="Search Country..." onkeyup="searchFun()">
     <button class="searchButton" href="#">
     <i class="material-icons">
     search
