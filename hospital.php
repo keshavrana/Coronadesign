@@ -71,7 +71,7 @@
     <h3 class="text-center text-uppercase pb-5">COVID-19 TESTING LAB'S AND FREE FOODS </h3>
     <div class="table-responsive">
     <div class="searchBox">
-    <input class="searchInput" type="text" name="" id="myInput" placeholder="Search city..." onkeyup="searchFun()">
+    <input class="searchInput" type="text" name="" id="myInput" placeholder="Search states..." onkeyup="searchFun()">
     <button class="searchButton" href="#">
     <i class="material-icons">
     search
@@ -127,7 +127,7 @@ const searchFun = () =>{
   let tr = document.getElementsByTagName('tr');
 
   for(var i=0; i<tr.length; i++){
-      let td = tr[i].getElementsByTagName('td')[1];
+      let td = tr[i].getElementsByTagName('td')[0];
 
       if(td){
           let textvalue = td.textContent || td.innerHTML;
