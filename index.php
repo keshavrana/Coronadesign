@@ -462,7 +462,7 @@ const searchFun = () =>{
 
       </div>
     </section>
-<!-----
+
     <section id="team" class="testimonials">
       <div class="container" data-aos="zoom-in">
         <div class="quote-icon">
@@ -472,7 +472,7 @@ const searchFun = () =>{
 
           <div class="testimonial-item">
             <p>
-              If you don’t like me, why do you waste your time making fun of me?
+              Coding is my passion 
             </p>
             <img src="images/keshav.jpg" class="testimonial-img" alt="">
             <h3>Keshav Rana</h3>
