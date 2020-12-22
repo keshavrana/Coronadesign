@@ -518,7 +518,7 @@ const searchFun = () =>{
             </div>
 
           </div>
-<!--------
+
           <div class="col-lg-8 mt-5 mt-lg-0">
 
             <form action="index.php" method="POST">
@@ -564,7 +564,7 @@ const searchFun = () =>{
 </form>
 </div>
 </div>
----->
+
 </div>
 </div>
     </section><!-- End Contact Section -->
