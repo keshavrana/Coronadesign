@@ -472,7 +472,7 @@ const searchFun = () =>{
 
           <div class="testimonial-item">
             <p>
-              Coding is my passion 
+              If You Can Not Do Great Things, Do Small Things In A great Way
             </p>
             <img src="images/keshav.jpg" class="testimonial-img" alt="">
             <h3>Keshav Rana</h3>
@@ -483,7 +483,6 @@ const searchFun = () =>{
 
       </div>
     </section> 
------>
 
     <section id="contact" class="contact section-bg">
       <div class="container">
