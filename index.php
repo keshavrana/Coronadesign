@@ -401,7 +401,7 @@ const searchFun = () =>{
           </div>
 
           <div class="col-lg-5 order-1 order-lg-2 align-items-stretch video-box" style='background-image: url("images/modi.webp");' data-aos="zoom-in">
-            <a href="https://youtu.be/i4O0KaQL2SY" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+            <a href="https://www.youtube.com/watch?v=ogBXkJ06nN8" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
           </div>
 
         </div>
