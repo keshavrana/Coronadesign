@@ -500,7 +500,7 @@ const searchFun = () =>{
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>Mullana,<br>Haryana, INDIA 133203</p>
+                <p>Roorkee,<br>Uttrakhand, INDIA 247667</p>
               </div>
 
               <div class="email">
