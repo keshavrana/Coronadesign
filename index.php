@@ -472,7 +472,7 @@ const searchFun = () =>{
 
           <div class="testimonial-item">
             <p>
-              If You Can Not Do Great Things, Do Small Things In A great Way
+              Software Developer at Realme.com
             </p>
             <img src="images/keshav.jpg" class="testimonial-img" alt="">
             <h3>Keshav Rana</h3>
