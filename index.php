@@ -499,7 +499,7 @@ const searchFun = () =>{
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>Roorkee,<br>Uttrakhand, INDIA 247667</p>
+                <p>Banglore,<br>Karnataka, INDIA 530068</p>
               </div>
 
               <div class="email">
