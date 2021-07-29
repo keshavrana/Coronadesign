@@ -505,7 +505,7 @@ const searchFun = () =>{
               <div class="email">
                 <i class="icofont-envelope"></i>
                 <h4>Email:</h4>
-                <p>keshavrana9756@gmail.com</p>
+                <p>Testing@gmail.com</p>
               </div>
 
               <div class="phone">
