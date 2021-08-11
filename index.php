@@ -472,7 +472,7 @@ const searchFun = () =>{
 
           <div class="testimonial-item">
             <p>
-              Face IT...!! Fight IT...!! Finish IT...!!
+              Software Engineer
             </p>
             <img src="images/keshav.jpg" class="testimonial-img" alt="">
             <h3>Keshav Rana</h3>
@@ -511,7 +511,7 @@ const searchFun = () =>{
               <div class="phone">
                 <i class="icofont-phone"></i>
                 <h4>Call:</h4>
-                <p>+91 8630983005</p>
+                <p>+91 xxxxxxxxxx</p>
               </div>
 
             </div>
