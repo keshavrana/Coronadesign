@@ -499,7 +499,7 @@ const searchFun = () =>{
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>New Delhi,<br> INDIA 1110001</p>
+                <p>New Delhi,<br> INDIA 110001</p>
               </div>
 
               <div class="email">
