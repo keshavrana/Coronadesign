@@ -97,7 +97,6 @@
         </div><br><br><br>
       <table class=" table table-bordered table-striped text-center" id="myTable">
         <tr>
-          <th> Lastupdatedtime </th>
           <th> State </th>
           <th> Confirmed </th>
           <th>Active</th>
@@ -116,7 +115,6 @@ $i=0;
 while($i < $statescount){
   ?>
   <tr>
-    <td style="background: #7a4a91;" class="text-white"><?php echo $coranalive['statewise'][$i]['lastupdatedtime'] ?></td>
     <td style="background: #4bb7d8;"><?php echo $coranalive['statewise'][$i]['state'] ?></td>
     <td style="background: #f36e23;"><?php echo $coranalive['statewise'][$i]['confirmed'] ?></td>
     <td style="background: #4bb7d8;"><?php echo $coranalive['statewise'][$i]['active'] ?></td>
