@@ -473,7 +473,7 @@ const searchFun = () =>{
               
             </p>
 <!--             <img src="images/keshav.jpg" class="testimonial-img" alt=""> -->
-            <h3>Designed & Develop by Tannu Tomar, Jyoti Gautam, Astha Jain</h3>
+            <h3>Designed & Develop by Tannu Tomar, Jyoti Gautam, Astha Jain </h3>
             
           </div>
 
