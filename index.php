@@ -470,10 +470,10 @@ const searchFun = () =>{
 
           <div class="testimonial-item">
             <p>
-              Software Engineer
+              
             </p>
-            <img src="images/keshav.jpg" class="testimonial-img" alt="">
-            <h3>Keshav Rana</h3>
+<!--             <img src="images/keshav.jpg" class="testimonial-img" alt=""> -->
+            <h3>Designed & Develop by Tannu Tomar, Jyoti Gautam, Astha Jain</h3>
             
           </div>
 
@@ -497,19 +497,19 @@ const searchFun = () =>{
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>New Delhi,<br> INDIA 110001</p>
+                <p>Meerut,<br> INDIA 250001</p>
               </div>
 
               <div class="email">
                 <i class="icofont-envelope"></i>
                 <h4>Email:</h4>
-                <p>keshavrana9756@gmail.com</p>
+                <p>tannutomar@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="icofont-phone"></i>
                 <h4>Call:</h4>
-                <p>+91 XXXXXXXXXX</p>
+                <p>+91 0000000000</p>
               </div>
 
             </div>
@@ -598,7 +598,8 @@ const searchFun = () =>{
         &copy; Copyright <strong><span>@2020</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Designed by <a href="https://keshavtechnical.netlify.com/">Keshav Rana</a>
+<!--         Designed by <a href="https://keshavtechnical.netlify.com/">Keshav Rana</a> -->
+        Designed & Develop by <a href="#">Tannu Tomar</a>
       </div>
     </div>
   </footer><!-- End Footer -->
