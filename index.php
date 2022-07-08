@@ -472,8 +472,9 @@ const searchFun = () =>{
             <p>
               
             </p>
-<!--             <img src="images/keshav.jpg" class="testimonial-img" alt=""> -->
-            <h3>Designed & Develop by Tannu Tomar, Jyoti Gautam, Astha Jain </h3>
+            <img src="images/keshav.jpg" class="testimonial-img" alt="">
+            <p> Keshav Rana </p>
+            <h3>Software Developer at DRDO</h3>
             
           </div>
 
@@ -497,13 +498,13 @@ const searchFun = () =>{
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>Meerut,<br> INDIA 250001</p>
+                <p>New Delhi,<br> INDIA 110033</p>
               </div>
 
               <div class="email">
                 <i class="icofont-envelope"></i>
                 <h4>Email:</h4>
-                <p>tannutomar@gmail.com</p>
+                <p>keshavrana9756@gmail.com</p>
               </div>
 
               <div class="phone">
@@ -598,8 +599,7 @@ const searchFun = () =>{
         &copy; Copyright <strong><span>@2020</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-<!--         Designed by <a href="https://keshavtechnical.netlify.com/">Keshav Rana</a> -->
-        Designed & Develop by <a href="#">Tannu Tomar</a>
+        Designed by <a href="https://keshavtechnical.netlify.com/">Keshav Rana</a>
       </div>
     </div>
   </footer><!-- End Footer -->
