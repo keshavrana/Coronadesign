@@ -510,7 +510,7 @@ const searchFun = () =>{
               <div class="phone">
                 <i class="icofont-phone"></i>
                 <h4>Call:</h4>
-                <p>+91 0000000000</p>
+                <p>+91 9310574974</p>
               </div>
 
             </div>
